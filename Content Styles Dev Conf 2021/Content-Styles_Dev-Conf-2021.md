@@ -6,7 +6,7 @@ slideNumber: false
 title: "ILIAS Content Styles"
 ---
 
-# Styling content
+# Content Styles
 
 Creating designed elements to guide attention
 
@@ -44,9 +44,19 @@ User feels lost
 
 ---
 
-Building home and overview pages
+Let's use the page editor
 
-with the page editor
+---
+
+and instead of building content pages
+
+---
+
+let's create home and overview pages
+
+---
+
+so admins can create custom simplified navigations
 
 ---
 
@@ -54,11 +64,15 @@ with the page editor
 
 ---
 
+(image: accordeon)
+
+---
+
 Hghlighted sections and call to actions in content pages
 
 ---
 
-(image: banner image in wall of text calling for an event registration)
+(image: content cards offering different courses)
 
 ---
 
@@ -76,11 +90,11 @@ in favor of a drill down UX
 
 ---
 
-### Conclusions
+### Realization
 
 ---
 
-Content styles offer many possibilities beyond just changing a color.
+Content styles offer many possibilities beyond just changing a text color.
 
 ---
 
@@ -108,7 +122,7 @@ help users find their way.
 
 ### Practical example:
 
-Course card with infotext and call to action button
+Course card with description text and call to action button
 
 ---
 
@@ -118,9 +132,9 @@ Course card with infotext and call to action button
 
 ### Purpose:
 
-Displaying a selection of courses of a sub-category
+Displaying a selection of courses of a sub-category {.fragment .fade-in-then-semi-out}
 
-Recommending a course within a content body
+Recommending a course within a content body {.fragment .fade-in-then-semi-out}
 
 ---
 
@@ -130,7 +144,7 @@ Layout and Navigation > Layout > Content Styles
 
 ---
 
-In another window:
+On the side
 
 Assembling our elements inside the page editor
 
@@ -187,7 +201,7 @@ Done!
 
 ---
 
-### Issues with this approach
+### Issues with this workflow
 
 ---
 
@@ -211,7 +225,29 @@ actually not that accessible - CSS knowledge required
 
 ---
 
+designer: frustrated and limited by the form
+
+user: intimidated, no WYSIWYG feedback
+
+---
+
+very hard to do anything beyond color or size changes
+
+---
+
+This is impossible with just the form:
+
+---
+
+(image: banner image in wall of text calling for an event registration)
+
+---
+
 ## Overcoming the limitations with CSS
+
+---
+
+Styling the CSS instead of form parameters
 
 ---
 
@@ -240,6 +276,12 @@ Compiling a delos.css that includes our additions
 ---
 
 ### Same visual result
+
+---
+
+designer: can style to his hearts content
+
+user: can be offered a library of complex content styles
 
 ---
 
