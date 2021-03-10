@@ -84,9 +84,13 @@ Good structure
 
 ---
 
+level 2 offers irrelevant options
+
 ![](imgs/structure_bad.svg)
 
 ---
+
+level 2 invites discovery
 
 ![](imgs/structure_better.svg)
 
@@ -94,7 +98,11 @@ Good structure
 
 ## Design teams perspective
 
+on ILIAS / Cate
+
 ---
+
+What you would expect:
 
 Skin design
 
@@ -115,6 +123,8 @@ Skin design
 ![](imgs/cate_green.png =1280x)
 
 ---
+
+A bit more adventerous:
 
 Tools for designing content
 
@@ -146,6 +156,8 @@ Complex magazine layouts are possible with column layout
 
 ---
 
+So...
+
 Let's use the page editor
 
 ---
@@ -156,15 +168,12 @@ and instead of building content pages
 
 let's create a toolbox
 
-for creating home and overview pages
+* for guiding attention on pages
+* for creating home and overview pages
 
 ---
 
-so admins can create custom simplified navigations
-
----
-
-and help users find their way
+goal: help users find their way to the important content
 
 ---
 
