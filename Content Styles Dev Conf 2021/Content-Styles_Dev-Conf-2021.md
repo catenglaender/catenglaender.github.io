@@ -62,11 +62,15 @@ We need to guide the user through many categories and long content pages
 
 ---
 
-reduce and filter: hand-pick what is displayed at once
+**reduce and filter:**
+
+hand-pick what is displayed at once
 
 ---
 
-prioritize and lead attention: what is most important?
+**prioritize and lead attention:**
+
+what is most important?
 
 ---
 
@@ -398,8 +402,8 @@ very hard to do anything beyond quick changes
 Impossible with just the form:
 
 * certain hover states
+* :before and :after elements
 * conditional changes (change text if it is inside certain blocks)
-* complex flex-box layouts
 
 ---
 
@@ -419,7 +423,7 @@ So let's write that CSS directly
 
 ---
 
-Creating the content styles without adding any settings
+1. Creating the content styles without adding any settings
 
 ---
 
@@ -429,7 +433,7 @@ Creating the content styles without adding any settings
 
 ---
 
-Name of the style appears in the editor dropdowns
+Style names can be used in the editor
 
 ---
 
@@ -439,7 +443,7 @@ Name of the style appears in the editor dropdowns
 
 ---
 
-Using the Chrome Inspector for Styling
+2. Using the Chrome Inspector for Styling
 
 ---
 
@@ -449,7 +453,7 @@ Using the Chrome Inspector for Styling
 
 ---
 
-Save the LESS/CSS code
+3. Save the LESS/CSS code
 
 ---
 
@@ -505,15 +509,15 @@ LESS
 
 ---
 
-[Official guide](https://docu.ilias.de/ilias.php?ref_id=367&obj_id=75028&cmd=layout&cmdClass=illmpresentationgui&cmdNode=iv&baseClass=ilLMPresentationGUI) on how to create a skin
-
----
-
 Importing our custom-content-styles.less in our skin
 
 ```LESS
 @import "less/custom-content-styles.less";
 ```
+
+---
+
+[Official guide](https://docu.ilias.de/ilias.php?ref_id=367&obj_id=75028&cmd=layout&cmdClass=illmpresentationgui&cmdNode=iv&baseClass=ilLMPresentationGUI) on how to create a skin
 
 ---
 
@@ -537,7 +541,7 @@ no clicking around and scrolling through a form
 
 ---
 
-Use of less variables like @brand-primary
+Use of variables like @brand-primary
 
 ---
 
