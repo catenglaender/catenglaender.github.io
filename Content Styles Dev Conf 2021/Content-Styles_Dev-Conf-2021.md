@@ -72,19 +72,19 @@ Skin design
 
 ---
 
-![](/imgs/ilias_start.png =1280x)
+![](imgs/ilias_start.png =1280x)
 
 ---
 
-![](/imgs/cate_tms.png =1280x)
+![](imgs/cate_tms.png =1280x)
 
 ---
 
-![](/imgs/cate_bright.png =1280x)
+![](imgs/cate_bright.png =1280x)
 
 ---
 
-![](/imgs/cate_green.png =1280x)
+![](imgs/cate_green.png =1280x)
 
 ---
 
@@ -166,7 +166,7 @@ Card with an image, description text and call to action button
 
 ---
 
-![](/imgs/ilias_content-card-example.png)
+![](imgs/ilias_content-card-example.png)
 
 ---
 
@@ -312,7 +312,7 @@ Done!
 
 ---
 
-![](/imgs/ilias_content-card-example.png)
+![](imgs/ilias_content-card-example.png)
 
 ---
 
@@ -523,7 +523,7 @@ We took this further...
 
 Content cards build for Cate:
 
-![](/imgs/cate_content-cards.png)
+![](imgs/cate_content-cards.png)
 
 ---
 
@@ -548,7 +548,7 @@ One block per setting
 
 ---
 
-![](/imgs/cate_nested-colored-cards.png)
+![](imgs/cate_nested-colored-cards.png)
 
 ---
 
@@ -601,7 +601,7 @@ Allow choosing multiple styles for one block
 
 ---
 
-![](/imgs/mockup_multi-style.png)
+![](imgs/mockup_multi-style.png)
 
 ---
 
