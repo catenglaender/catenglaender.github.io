@@ -14,19 +14,23 @@ for a better UX
 
 ---
 
+#### UX Designers @ Concepts and Training GmbH
+
 Christoph Krahl
 
 Linda Dierke
 
 Ferdinand Engländer
 
-#### UX Designers @ Concepts and Training GmbH
-
 ---
 
 Concepts and Training = CaT
 
-offers ILIAS-based training management solution for businesses (insurances, car dealers)
+offers ILIAS-based training management solutions for businesses (insurances, car dealers)
+
+---
+
+ILIAS with our extensions, modifications and skins = Cate
 
 ---
 
@@ -42,6 +46,10 @@ Navigation, lists, breadcrumbs and dashboards get overwhelming
 
 ---
 
+Users miss important information on full content pages
+
+---
+
 User feels lost
 
 ---
@@ -50,17 +58,37 @@ User feels lost
 
 ---
 
-We need to guide the user through categories and content
+We need to guide the user through many categories and long content pages
 
 ---
 
-filter and reduce input
+reduce and filter: hand-pick what is displayed at once
+
+---
+
+prioritize and lead attention: what is most important?
+
+---
 
 maximize overview
 
 ---
 
 public pages need to look on brand
+
+---
+
+## General solutions
+
+Good structure
+
+---
+
+![](imgs/structure_bad.svg)
+
+---
+
+![](imgs/structure_better.svg)
 
 ---
 
@@ -176,6 +204,10 @@ Card with an image, description text and call to action button
 
 ---
 
+![](imgs/ilias_content-card-example.png)
+
+---
+
 ### Purpose:
 
 Displaying a selection of courses of a sub-category {.fragment .fade-in-then-semi-out}
@@ -255,6 +287,10 @@ Media
 ---
 
 Adding a headline
+
+---
+
+![](imgs/ilias_content-card-example.png)
 
 ---
 
@@ -362,7 +398,15 @@ Impossible with just the form:
 
 ---
 
-Styling the CSS instead of form parameters
+What is actually happening in the background?
+
+---
+
+Form parameters are translated into CSS
+
+---
+
+So let's write that CSS directly
 
 ---
 
@@ -472,12 +516,6 @@ Compiling a delos.css that includes our additions
 
 ---
 
-designer (power user): can style to his hearts content
-
-user (beginner): can be offered a library of helpful content styles
-
----
-
 ### Advantages of CSS approach
 
 ---
@@ -510,7 +548,15 @@ not closer to a WYSIWYG experience for the user
 
 ---
 
-We took this further...
+### Bottom line
+
+designer (power user): can style to their hearts content and create helpful content styles
+
+user (beginner): can choose from this library of helpful content styles
+
+---
+
+We took this very far in Cate
 ## Full design toolbox
 
 ---
@@ -538,13 +584,13 @@ All controlled by individual blocks
 
 ---
 
-ended up in excessive nesting
-
----
-
 Inside page editor:
 
 One block per setting
+
+---
+
+excessive nesting
 
 ---
 
@@ -564,31 +610,15 @@ One div per setting is not good practice
 
 ---
 
-## Who are content styles for?
-
----
-
-Defined by admins / designers
-
-use at your own risk is "ok"
-
----
-
-Used in the page editor by users
-
-should be self explanatory and fool proof
-
----
-
-How do we enpower users
-
-to create more complex layouts
-
-on brand without confusion?
-
----
-
 ## A small suggestion
+
+---
+
+How do we allow users to build helpful pages
+
+using pre-designed elements
+
+with less risks of user error inside the page editor?
 
 ---
 
@@ -618,6 +648,14 @@ less clicks inside page editor
 ---
 
 User still only has a access to carefully selected on-brand options
+
+---
+
+Maybe the possible selections are filtered
+
+Whitelist: What looks good together?
+
+Blacklist: What shouldn't be used together?
 
 ---
 
