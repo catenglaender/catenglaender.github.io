@@ -4,6 +4,7 @@ transition: "slide"
 highlightTheme: "monokai"
 slideNumber: false
 title: "ILIAS Content Styles"
+customTheme: "additionalstyles"
 ---
 
 # Content Styles
@@ -162,15 +163,11 @@ Complex magazine layouts are possible with column layout
 
 So...
 
-Let's use the page editor
+Let's use the page editor & content styles
 
 ---
 
-and instead of building content pages
-
----
-
-let's create a toolbox
+and create a toolbox
 
 * for guiding attention on pages
 * for creating home and overview pages
@@ -303,13 +300,13 @@ Adding a headline
 
 ---
 
-![](imgs/ilias_content-card-example.png)
-
----
-
 <video controls muted autoplay>
     <source data-src="vids/card-content-form_adding-headline.mp4" type="video/mp4" />
 </video>
+
+---
+
+![](imgs/ilias_content-card-example.png)
 
 ---
 
@@ -358,8 +355,6 @@ Adding the button
 ---
 
 Done!
-
----
 
 ![](imgs/ilias_content-card-example.png)
 
@@ -543,6 +538,10 @@ no clicking around and scrolling through a form
 
 Use of variables like @brand-primary
 
+in use and defined in standard Delos skin
+
+easy to change colors for different brands
+
 ---
 
 new possibilities like hover states for our "button"
@@ -557,15 +556,15 @@ requires file access to the server and a custom skin setup
 
 ---
 
-not closer to a WYSIWYG experience for the user
+adding styles is also not beginner friendly
 
 ---
 
 ### Bottom line
 
-designer (power user): can style to their hearts content and create helpful content styles
+designer (power user): can style to their heart's content and create helpful content styles
 
-user (beginner): can choose from this library of helpful content styles
+user (beginner): can choose from this library of helpful content styles in page editor
 
 ---
 
@@ -627,6 +626,12 @@ One div per setting is not good practice
 
 ---
 
+Feature request
+
+[tinyurl.com/ilias-multistyle](https://tinyurl.com/ilias-multistyle)
+
+---
+
 How do we allow users to build helpful pages
 
 using pre-designed elements
@@ -674,15 +679,15 @@ Blacklist: What shouldn't be used together?
 
 ## Outlook
 
-CaT is looking into implementing this
+CaT developers are working on an implementation
 
 ---
 
-adding to the core if it's deemed a worthy addition
+We are suggesting to add this to the ILIAS core
 
 ---
 
-funding, feedback, cooperation is greatly appreciated
+Any additional funding, feedback, cooperation is greatly appreciated
 
 ---
 
