@@ -83,7 +83,7 @@ public pages need to look on brand
 
 ---
 
-## General solutions
+## General solutions for better UX
 
 Good structure
 
@@ -113,19 +113,19 @@ Skin design
 
 ---
 
-![](imgs/ilias_start.png =1280x)
+<!-- .slide: data-background="imgs/ilias_start.png" -->
 
 ---
 
-![](imgs/cate_tms.png =1280x)
+<!-- .slide: data-background="imgs/cate_tms.png" -->
 
 ---
 
-![](imgs/cate_bright.png =1280x)
+<!-- .slide: data-background="imgs/cate_bright.png" -->
 
 ---
 
-![](imgs/cate_green.png =1280x)
+<!-- .slide: data-background="imgs/cate_green.png" -->
 
 ---
 
@@ -167,14 +167,18 @@ Let's use the page editor & content styles
 
 ---
 
-and create a toolbox
+and create a toolbox {.fragment .fade-in-then-semi-out}
 
-* for guiding attention on pages
-* for creating home and overview pages
+* for guiding attention on pages {.fragment .fade-in-then-semi-out}
+* for creating home and overview pages {.fragment .fade-in-then-semi-out}
 
 ---
 
 goal: help users find their way to the important content
+
+---
+
+Examples in Cate:
 
 ---
 
@@ -218,6 +222,16 @@ Card with an image, description text and call to action button
 
 ---
 
+Not to be confused with
+
+list objects as item cards:
+
+---
+
+![](imgs/ilias_card-repo.png)
+
+---
+
 ### Purpose:
 
 Displaying a selection of courses of a sub-category {.fragment .fade-in-then-semi-out}
@@ -228,9 +242,9 @@ Recommending a course within a content body {.fragment .fade-in-then-semi-out}
 
 ### Step by step demonstration
 
-1. so you can build it yourself
+1. so you can build it yourself {.fragment .fade-in-then-semi-out}
 
-2. so you experience the issues
+2. so you experience the issues {.fragment .fade-in-then-semi-out}
 
 ---
 
@@ -279,6 +293,10 @@ Adding images
 <video controls muted autoplay>
     <source data-src="vids/card-content-form_adding-images.mp4" type="video/mp4" />
 </video>
+
+---
+
+![](imgs/ilias_content-card-example.png)
 
 ---
 
@@ -369,6 +387,10 @@ many, many clicks
 ---
 
 long, overwhelming form
+
+---
+
+difficult to change all colors and fonts at once
 
 ---
 
@@ -610,6 +632,10 @@ excessive nesting
 
 ---
 
+potential user error: Nesting blocks in the wrong order
+
+---
+
 Code of the content cards:
 
 One div per setting is not good practice
@@ -632,14 +658,6 @@ Feature request
 
 ---
 
-How do we allow users to build helpful pages
-
-using pre-designed elements
-
-with less risks of user error inside the page editor?
-
----
-
 Allow choosing multiple styles for one block
 
 ---
@@ -657,15 +675,21 @@ Allow choosing multiple styles for one block
 
 ---
 
+Easy to use interface
+
+to add many different settings to a single block
+
+---
+
+User still only has a access to carefully selected on-brand options
+
+---
+
 Avoids nesting chaos
 
 ---
 
 less clicks inside page editor
-
----
-
-User still only has a access to carefully selected on-brand options
 
 ---
 
@@ -691,43 +715,11 @@ Any additional funding, feedback, cooperation is greatly appreciated
 
 ---
 
-<!-- .slide: data-background-iframe="https://docu.ilias.de/goto_docu_wiki_wpage_6767_1357.html" -->
+Feature request: [tinyurl.com/ilias-multistyle](https://tinyurl.com/ilias-multistyle)
 
----
+Link to this presentation: [tinyurl.com/il-devconf-content-styles](https://tinyurl.com/il-devconf-content-styles)
 
-## Vision beyond this
-
-There are powerful page builders out there...
-
-Wordpress: Elementor, Divi, Gutenberg
-
----
-
-Get inspiration, but innovate on a small and practical level
-
----
-
-Should contents styles and page editor grow closer together?
-
-library of nested block templates?
-
----
-
-Why?
-
-Because ILIAS pages are not just a canvas for text
-
----
-
-design options for pages enpower authors to
-
-guide attention and simplify navigations
-
-for a better user experience
-
----
-
-<!-- .slide: data-background-iframe="https://docu.ilias.de/goto_docu_wiki_wpage_6767_1357.html" -->
+Q&A on Skype: [tinyurl.com/content-styles-skype](https://tinyurl.com/content-styles-skype)
 
 ---
 
