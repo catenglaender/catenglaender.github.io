@@ -406,21 +406,21 @@ actually not that accessible - CSS knowledge required
 
 ---
 
-designer (power user): frustrated and limited by the form
-
-user (beginner): intimidated, no WYSIWYG feedback
-
----
-
-very hard to do anything beyond quick changes
-
----
-
 Impossible with just the form:
 
 * certain hover states
 * :before and :after elements
 * conditional changes (change text if it is inside certain blocks)
+
+---
+
+designer (power user): frustrated and limited by the form
+
+user (beginner): intimidated to add styles, only a few simple default options
+
+---
+
+very hard to do anything beyond small changes
 
 ---
 
@@ -437,6 +437,10 @@ Form parameters are translated into CSS
 ---
 
 So let's write that CSS directly
+
+---
+
+= we can add anything we want through the skin CSS
 
 ---
 
@@ -501,6 +505,8 @@ CSS
 ---
 
 LESS
+
+preprocessor language to generate CSS
 
 ```LESS
 .ilc_section_ContentCardBase {
@@ -724,5 +730,3 @@ Q&A on Skype: [tinyurl.com/content-styles-skype](https://tinyurl.com/content-sty
 ---
 
 Thank you :)
-
-## Any questions?
